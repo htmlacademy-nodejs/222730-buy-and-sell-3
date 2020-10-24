@@ -9,7 +9,7 @@ const MAX_COUNT = 1000;
 const MIN_PRICE = 1000;
 const MAX_PRICE = 100000;
 
-const {TITLES, DESCRIPTIONS, CATEGORIES} = require('./testData.js');
+const {TITLES, DESCRIPTIONS, CATEGORIES} = require(`./testData.js`);
 
 const getImgFileName = (num) => num < 10 ? `item0${num}.jpg` : `item${num}.jpg`;
 
